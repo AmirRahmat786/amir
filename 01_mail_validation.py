@@ -1,6 +1,6 @@
 #should be in=(len,isalpha,@,.,)
 #should not be in= (space,upper isalpha)
-while True:
+while True: 
     k,m,n=0,0,0
     email = input("Enter email: ")
     if len(email)>=6:  
